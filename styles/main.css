@@ -1,0 +1,56 @@
+body {
+  background-image: url(../images/cloud.jpg);
+  text-shadow: 0 0 3px white, 0 0 8px white;;
+}
+
+.headtitle {
+  height: auto;
+  width: max-content;
+  margin: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  min-width: auto;
+
+}
+
+#Zen {
+  background-color: #0082FF;
+  color: white;
+  border-radius: 8px ;
+}
+.Zen2 {
+  background-color: #0082FF;
+  color: white;
+  border-radius: 5px ;
+}
+
+.center {
+  height: auto;
+  width: auto;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.description {
+  font-weight: bolder;
+  font-size: max(13px, 1.5em);
+}
+
+.contents {
+  min-height: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+.links {
+  font-size: 20px;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: white;
+}
+
