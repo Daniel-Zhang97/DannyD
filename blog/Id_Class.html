@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id and classes</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <h1 class="headtitle center" style="font-size: 50px;"><span class="Zen2">Best</span> practice between Id and Class</h1>  
+        <div>
+          <p class="information">
+          Id and class both serve the same main overall purpose, which is to allow the developer to reference and apply rules to specific elements of the webpage.
+          </p>
+          <div>
+            <figure>
+            <img src="../images/fig1.png" alt="Id and class fig.1" class="figure">
+            </figure>
+          </div>
+          <p class="information">
+            However the use case is different for both Id and class based on the simple mechanic that and Id is unique to only one element while a class can be applied to multiple elements within an html.
+          </p>
+
+          <img src="../images/idclassfig2.png" alt="figure showing classes repeating" class="figure">
+        </div>
+        <p class="information">
+            In the figure above, we can see that the three paragraph elements all share some but not all their classes.
+            This is because an element can have multiple classes separated by a space.
+            <br>
+            <br>
+            As an example; the first paragraph has the classes "a", "better", and "class".
+        </p>
+        <img src="../images/idclassfig3.png" alt="figure showing common classes" class="figure">
+        <p class="information">
+          In the figure above we can see all shared classes underlined in the same colour.    
+          <br>  
+          Pay special attention to "class?" of the third paragraph. As special character are not valid when used as part of a css selector, it is ignored for class reasons.
+        </p>
+        <img src="../images/figure 4.png" alt="figure showing invalid class" class="figure">
+        <p class="information">
+          As we can see, if we attempt to make a css rule targeting the "class?" class, it shows up in a bright red, which is often used to indicate that something ain't right.
+          <br>
+          <br>
+          So if class can do everthing that Id can but without the singleton restriction, why would we want to use an id instead of class?
+        </p>
+        <img src="../images/fig5.png" alt="figure showing an example of one element having both id and class" class="figure">
+        <p class="information">
+          Well the obvious use is when you only want the css rules to apply to only one element and we don't want to accidently apply it to others.
+          <br>
+          <br>  
+          Another use is when we want to style an element with both a pre-exisitng class as well as make some adjustments to it. Since an id selector is more "specific", its rules will override class rules. As such as can use both class and id to get the element just how we want without messing with the class rule or having to code the entire thing again. 
+        </p>
+        <img src="../images/fig6.png" alt="figure showing repeated ids" class="figure">
+        <p class="information">
+          As a sidenote, technically we can apply the same id to multiple elements. Most browsers are lenient enough to allow that and apply the id selector rules to all elements with the same ID. However this is a bad practice in coding and should be avoided as it can conflict with various other parts of development and use such as validaiton and if we have any javascript. 
+          <br>
+          It might also just not render client side, so, don't do it.
+        </p>
+
+        <a href="https://daniel-zhang97.github.io" class="links pagerefer">Back to Home</a>
+
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>

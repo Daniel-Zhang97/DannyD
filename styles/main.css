@@ -2,6 +2,9 @@ body {
   background-image: url(../images/cloud.jpg);
   text-shadow: 0 0 3px white, 0 0 8px white;;
   margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
 .headtitle {
@@ -83,6 +86,39 @@ a:hover {
   font-size: 30px;
   margin-top: 15px;
   text-align: center;
-
 }
 
+.information {
+  background-color: white;
+  border-style: solid;
+  border-radius: 7px;
+  border-color: black;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.4rem;
+  padding: 10px 7px;
+}
+
+.figure {
+  margin: 20px  auto;
+  width: fit-content;
+  display: block;
+}
+
+.information:hover {
+  background-color: black;
+  color: white;
+}
+
+.pagerefer {
+  margin: 40px auto;
+  text-align: center;
+  display: block;
+  border-color: black;
+  border-style: solid;
+  width: fit-content;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 6px;
+}
