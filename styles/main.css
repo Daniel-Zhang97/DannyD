@@ -1,6 +1,6 @@
 body {
   background-image: url(../images/cloud.jpg);
-  text-shadow: 0 0 3px white, 0 0 8px white;;
+  text-shadow: 0 0 5px white, 0 0 8px white;;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -12,7 +12,7 @@ body {
   width: max-content;
   margin: auto;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 40px;
+  font-size: 50px;
   min-width: auto;
 
 }
@@ -43,11 +43,16 @@ body {
 .contents {
   min-height: 100px;
   margin: auto;
-  text-align: center;
+text-align: center;
+
 }
 
 .links {
   font-size: 20px;
+  display: inline-block;
+  width: 30%;
+  margin: auto;
+  vertical-align: top;
 }
 
 a {
@@ -121,4 +126,16 @@ a:hover {
   padding: 10px;
   font-weight: bold;
   border-radius: 6px;
+}
+
+.personal {
+  width: 75%;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.empty {
+  height: 50px;
+  display: block;
 }
