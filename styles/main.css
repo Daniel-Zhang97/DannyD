@@ -32,7 +32,7 @@ body {
   height: auto;
   width: auto;
   text-align: center;
-  margin: 100px auto;
+  margin: 30px auto;
 }
 
 .description {
@@ -101,8 +101,8 @@ a:hover {
   width: 75%;
   text-align: center;
   margin: auto;
-  font-size: 1.4rem;
-  padding: 10px 7px;
+  font-size: 1.2rem;
+  padding: 8px 7px;
 }
 
 .figure {
@@ -140,3 +140,19 @@ a:hover {
   display: block;
 }
 
+#darkMode {
+  background-color: black;
+  border-radius: 3px;
+  border-style: outset;
+  border-width: 4px;
+  width: 30%;
+  height: 40px;
+  display: block;
+  color: white;
+  cursor: pointer;
+}
+
+#darkMode:hover {
+  border-style: inset;
+  border-width: 4px;
+}
