@@ -156,3 +156,29 @@ a:hover {
   border-style: inset;
   border-width: 4px;
 }
+
+.invisi {
+  background-color: white;
+  border-style: solid;
+  border-radius: 7px;
+  border-color: black;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.2rem;
+  padding: 8px 7px;
+  color: white;
+}
+
+.darkmode {
+  background-color: black;
+  color: white;
+}
+
+.toggler {
+  visibility: visible;
+}
+
+.cantSee {
+  visibility: hidden;
+}
